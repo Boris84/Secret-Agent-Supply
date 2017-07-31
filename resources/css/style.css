@@ -23,14 +23,14 @@ header {
  margin-left: 2.5rem;
 }    
  header h2 {
- margin-top: 3px;
  padding-bottom: 0.66rem;
  font-family: Helvetica;	
- padding-top: 0.66rem
+ padding-top: 0.66rem;
  font-size: 1rem;
  color: white;
 }
 .container {
+ margin: auto;
  font-family: Helvetica;
  width: 970px;
  }
