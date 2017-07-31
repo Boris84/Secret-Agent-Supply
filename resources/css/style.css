@@ -70,6 +70,7 @@ header {
 .navigation {
  background-color: firebrick;
  justify-content: center;
+ line-height: 1.5rem;
  padding-top: 0.75rem;
  padding-bottom: 0.75rem; 
  height: 1.5rem;
