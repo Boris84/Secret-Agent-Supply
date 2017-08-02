@@ -33,7 +33,7 @@ header {
 .container {
  margin: auto;
  font-family: Helvetica;
- width: 970px;
+ max-width: 970px;
  }
 .main-banner {
  display: column;
@@ -114,18 +114,33 @@ background-color: black;
 
 .LH {
 display: flex;
-margin: 70px;
- }
-.LH span {
-background-color: black;
-margin: 10px;
+justify-content: space-between;
+max-width: 970px;
+margin: 90px;
 }
+
 .LH h3 {
+justify-content: space-between;
+background-color: black;
+display: inline-block;
+text-align: center;
+padding: 1em 2em;
+height: 1.5rem;
 color: white;
+width: 65%;
 }
 
+.LH p {
+display: inline-block;
+justify-content: space-between;
+margin: 20px;
+margin-top: 0.3rem;
 
-
+}
+.hours p {
+color: black;
+text-decoration: none;
+}
 
 footer {
 
