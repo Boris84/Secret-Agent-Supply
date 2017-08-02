@@ -63,8 +63,35 @@ header {
  margin-bottom: 4rem;
 }
 
-.content {
 
+.grid {
+margin: 70px;
+}
+.items {
+display: flex;
+justify-content: center;
+}
+.items img {
+height: 9rem;
+width: 9rem;
+padding: 2rem 3.5rem;
+justify-content: center;
+}
+.items div {
+display: inline;
+border: 4px solid black;
+height: 40%;
+width: 30%;
+margin: 1rem;
+}
+.items h3 {
+width: 100%;
+color: white;
+height: 1rem;
+text-align: center;
+padding-top: 0.7rem;
+padding-bottom: 0.5rem;
+background-color: black;
 }
 
 .navigation {
@@ -73,7 +100,7 @@ header {
  line-height: 1.5rem;
  padding-top: 0.75rem;
  padding-bottom: 0.75rem; 
- height: 1.5rem;
+ height: 1.5rem; 
  }
 
  .navigation a {
@@ -82,3 +109,24 @@ header {
  margin-left: 5rem;
  padding: 0.1rem;
  }
+
+
+
+.LH {
+display: flex;
+margin: 70px;
+ }
+.LH span {
+background-color: black;
+margin: 10px;
+}
+.LH h3 {
+color: white;
+}
+
+
+
+
+footer {
+
+}
