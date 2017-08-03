@@ -10,12 +10,13 @@ header {
  width: 100%;
 }
 
-.logo {
+.background {
  display: flex;
  margin-bottom: 9rem;
  align-content: center;
  background-color: black;
-  }
+}
+
 .logo img {
  height: 1.5rem;
  padding-left: 0.5rem;
@@ -32,15 +33,13 @@ header {
 }
 .container {
  margin: auto;
- font-family: Helvetica;
  max-width: 970px;
+ font-family: Helvetica;
  }
 .main-banner {
- display: column;
- align-content: center;
  background-color: black;
  margin-top: -20px;
- margin-left: 5rem;
+ margin-left: 10rem;
  height: 12rem;
  width: 25rem;
 }
@@ -74,7 +73,7 @@ padding-left: 80px;
 padding-right: 100px;
 }
 .items img {
-height: 9rem;
+height: 5rem;
 width: 9rem;
 padding: 2rem 3.5rem;
 justify-content: center;
@@ -137,14 +136,14 @@ margin-top: 0.3rem;
 margin-bottom: 4rem;
 }
 
-footer {
-background-color: black;
-margin-top: 4rem;
-width: 100%;
-height: 10rem;
-}
-footer p {
+.copyright p {
 padding-top: 5rem;
 padding-left: 5rem;
+height: 5rem;
 color: white;
+}
+
+.copyright {
+background-color: black;
+height: 10rem;
 }
