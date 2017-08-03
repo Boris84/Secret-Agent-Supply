@@ -53,7 +53,6 @@ header {
  padding-bottom: 0.25rem;
  margin-left: 3rem;
  }
-
 .sport p {
  color: white;
  font-size: 2rem;
@@ -96,6 +95,7 @@ padding-top: 0.7rem;
 padding-bottom: 0.5rem;
 background-color: black;
 }
+
 .navigation {
  background-color: firebrick;
  justify-content: center;
@@ -118,7 +118,6 @@ display: flex;
 margin: auto;
 padding-left: 76px;
 }
-
 .LH h3 {
 background-color: black;
 display: inline-block;
@@ -131,14 +130,12 @@ width: 35%;
 .hours {
 padding-right: 11rem;
 }
-
 .LH p {
 display: inline-block;
 justify-content: space-between;
 margin-top: 0.3rem;
 margin-bottom: 4rem;
 }
-
 
 footer {
 background-color: black;
