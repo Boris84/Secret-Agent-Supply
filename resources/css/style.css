@@ -4,11 +4,10 @@ html {
 
 header {
  display: flex;
- background-size: cover;
  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg) no-repeat center;
+ background-size: cover;
  align-items: center;
  height: 25rem;
-
 }
 
 .background {
