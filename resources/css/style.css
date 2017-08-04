@@ -23,39 +23,45 @@ background-color: black;
 .top-banner img {
  height: 1.5rem;
  padding-right: 1rem;
- padding-left: 5rem;
+ padding-top: 0.66rem 
+ padding-bottom: 0.66rem;
 }    
 .top-banner p {
 display: inline;
 font-weight: bold;
+padding-top: 0.66rem 
+padding-bottom: 0.66rem;
 font-size: 1rem;
 color: green;
 
 }
 
+
+
+.image-banner h1 {
+ font-size: 2rem;
+}
+.image-banner h2 {
+ font-size: 1rem;
+}
+.image-banner {
+ width: 100%;
+ background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+ background-size: cover;
+ height: 25rem;
+}
+.image-banner .container{
+ position: relative;
+ top: 100px;
+}
 .newsport {
  background-color: black;
+ text-align: center;
  padding-top: 20px;
  height: 8rem;
  width: 20rem;
  color: white;
 }
-
-
-.image-banner h1 {
-font-size: 2rem;
-}
-.image-banner h2 {
-font-size: 1rem;
-}
-.image-banner {
-width: 100%;
-background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-background-size: cover;
-height: 25rem;
-}
-
-
 
 
 
