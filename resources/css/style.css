@@ -8,6 +8,13 @@ header {
  width: 100%;
 }
 
+.container {
+ margin: auto;
+ max-width: 960px;
+ font-weight: bold;
+ font-family: Helvetica;
+ }
+
 .top-banner {
 width: 100%;
 color: white;
@@ -26,8 +33,13 @@ color: green;
 
 }
 
-
-
+.newsport {
+ background-color: black;
+ padding-top: 20px;
+ height: 8rem;
+ width: 20rem;
+ color: white;
+}
 
 
 .image-banner h1 {
@@ -43,24 +55,9 @@ background-size: cover;
 height: 25rem;
 }
 
-.image-banner .container {
- background-color: black;
- padding-top: 20px;
- margin-left: 22rem;
- height: 8rem;
- width: 20rem;
- color: white;
-}
 
 
 
-.container {
- margin: auto;
- max-width: 960px;
- font-weight: bold;
- text-align: center;
- font-family: Helvetica;
- }
 
 .grid {
 margin: auto;
@@ -106,7 +103,6 @@ background-color: black;
 .navigation a {
  color: white;
  text-decoration: none;
- margin-left: 5rem;
  padding: 0.1rem;
  }
 
