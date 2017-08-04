@@ -18,6 +18,7 @@ header {
 .top-banner {
 width: 100%;
 color: white;
+height: 2.32rem;
 background-color: black;
 }
 .top-banner img {
@@ -32,8 +33,7 @@ font-weight: bold;
 padding-top: 0.66rem 
 padding-bottom: 0.66rem;
 font-size: 1rem;
-color: green;
-
+color: white;
 }
 
 
@@ -52,7 +52,7 @@ color: green;
 }
 .image-banner .container{
  position: relative;
- top: 100px;
+ top: 9rem;
 }
 .newsport {
  background-color: black;
