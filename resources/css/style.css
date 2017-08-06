@@ -61,8 +61,7 @@ header {
 .newsport {
  background-color: black;
  text-align: center;
- padding-top: 20px;
- height: 8rem;
+ padding-top: 2rem 3rem
  width: 20rem;
  color: white;
 }
