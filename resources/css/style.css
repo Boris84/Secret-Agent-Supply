@@ -61,7 +61,7 @@ header {
 .newsport {
  background-color: black;
  text-align: center;
- padding-top: 2rem 3rem
+ padding: 2rem 3rem;
  width: 20rem;
  color: white;
 }
@@ -95,13 +95,16 @@ header {
 .product {
  border: 4px solid black;
  display: inline-block;
- margin-right: 2rem;
- width: 27%;
+ width: 30%;
 }
 .products img {
- width: 10rem;
  height: 9rem;
- padding: 2rem 1.5rem;
+ max-width: 8em;
+ padding: 2rem 2rem;
+}
+img .glasses {
+height: auto;
+padding: 4.62rem;
 }
 .products h3 {
  color: white;
