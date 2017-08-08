@@ -93,17 +93,18 @@ header {
 /*Grid*/
 .grid {
  margin-bottom: 3rem;
- align-items: right;
 }	
+.grid .container {
+
+}
 .products {
  display: flex;
- align-items: center;
- margin: auto;
 }
 .product {
  border: 4px solid black;
  display: inline-block;
- margin-right: 2rem;
+ margin-right: 2.5rem;
+ text-align: center;
  width: 30%;
 }
 .products img {
@@ -113,8 +114,10 @@ header {
 }
 img.glasses {
 height: auto;
+margin-right: 0px;
 padding: 4.62rem;
 }
+
 .products h3 {
  color: white;
  padding-top: 1rem;
@@ -130,16 +133,16 @@ padding: 4.62rem;
 .LH {
  display: flex;
  justify-content: space-between;
- margin-right: 10%;
 }
 .LH h3 {
  background-color: black;
  margin-bottom: 0.5rem;
- padding: 1rem 12.5rem;
+ padding: 1rem 15.5rem;
  padding-left: 2rem;
  height: 1.5rem;
  display: flex;
  color: white;
+ width: 35%;
 }
 .LH p {
  display: inline;
