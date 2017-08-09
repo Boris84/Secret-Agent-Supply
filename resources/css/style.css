@@ -94,9 +94,6 @@ header {
 .grid {
  margin-bottom: 3rem;
 }	
-.grid .container {
-
-}
 .products {
  display: flex;
  justify-content: space-between;
@@ -137,9 +134,7 @@ padding: 4.62rem;
 .location {
  width: 35%;
 }
-.hours {
- width: 35%;
-}
+
 .LH h3 {
  background-color: black;
  margin-bottom: 0.5rem;
@@ -173,6 +168,11 @@ padding: 4.62rem;
 
 
 /*Media Queries */
-@media only screen and (orientation: portrait), (max-width: 1024px) {
-
+@media only screen and (max-width: 1024px) {
+.product {
+     width: 47%;
+	}
+.hours {
+     width: 35%;
+	}
 }
