@@ -85,14 +85,19 @@ nav ul {
 
 /*Grid*/
 .grid {
-margin-top: 3rem;
-margin-bottom: 3rem;
+margin: 3rem 0rem;
 }	
 .products {
 display: flex;
 justify-content: space-between;
 }
-.product {
+.product  {
+border: 4px solid black;
+display: inline-block;
+text-align: center;
+width: 30%;
+}
+.product-two {
 border: 4px solid black;
 display: inline-block;
 text-align: center;
@@ -167,7 +172,7 @@ color: white;
 }
 
 
-/*Media Queries */
+/*Media Queries Tablet 1024px */
 @media only screen and (max-width: 1024px) {
 
 .top-banner {  
@@ -197,6 +202,27 @@ text-align: center;
 }
 
 nav ul {
+display: none;
+}
+
+}
+
+
+/* Media Queries Mobile 470px */
+@media only screen and (max-width: 470px) {
+
+.top-banner p {
+display: none;
+}
+.top-banner .container {
+display: flex;
+justify-content: center;
+}
+.image-banner .container {
+overflow: hidden;
+top: 15rem;
+}
+.product-two div {
 display: none;
 }
 
