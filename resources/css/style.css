@@ -244,6 +244,18 @@ font-size: 1rem;
 padding-left: 2rem;
 }
 
+.grid .container {
+  width: 90%;
+}
+
+.product:nth-child(1){
+width: 100%;
+}
+
+.product:nth-child(2){
+display: none;
+}
+
 .LH {
 display: block;
 margin: auto;
@@ -259,7 +271,8 @@ margin-bottom: 0.5rem;
 }
 
 .location  {
-margin-bottom: 0.5rem;
+width: 100%;
+margin-bottom: 2rem;
 }
 
 .hours h3 {
