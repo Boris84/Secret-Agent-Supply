@@ -212,7 +212,6 @@ display: none;
 }
 .image-banner {
   height: 15rem;
-
 }
 .top-banner .container {
 display: flex;
@@ -238,4 +237,15 @@ padding-left: 2rem;
 font-size: 1rem;
 padding-left: 2rem;
 }
+.LH {
+display: block;
+
+}
+.container .LH {
+  width: 100%;
+  
+}
+
+.LH h3 {
+  width: 90%;
 }
