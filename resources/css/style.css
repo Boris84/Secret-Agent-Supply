@@ -97,18 +97,6 @@ display: inline-block;
 text-align: center;
 width: 30%;
 }
-.product-two {
-border: 4px solid black;
-display: inline-block;
-text-align: center;
-width: 30%;
-}
-.product-three {
-border: 4px solid black;
-display: inline-block;
-text-align: center;
-width: 30%; 
-}
 .products img {
 height: 9rem;
 max-width: 8em;
@@ -214,16 +202,32 @@ display: none;
 .top-banner p {
 display: none;
 }
+.image-banner {
+  height: 15rem;
+
+}
 .top-banner .container {
 display: flex;
 justify-content: center;
 }
 .image-banner .container {
 overflow: hidden;
-top: 15rem;
+top: 6rem;
 }
-.product-two div {
-display: none;
+.newsport {
+width: 100%;
+text-align: left;
+font-family: Helvetica;
+font-weight: bold;
+height: 5rem;
 }
-
+.newsport h2 {
+font-size: 0.77rem;
+padding-top: 1rem;
+padding-left: 2rem;
+}
+.newsport  h1 {
+font-size: 1rem;
+padding-left: 2rem;
+}
 }
