@@ -210,17 +210,21 @@ display: none;
 .top-banner p {
 display: none;
 }
+
 .image-banner {
   height: 15rem;
 }
+
 .top-banner .container {
 display: flex;
 justify-content: center;
 }
+
 .image-banner .container {
 overflow: hidden;
 top: 6rem;
 }
+
 .newsport {
 width: 100%;
 text-align: left;
@@ -228,24 +232,45 @@ font-family: Helvetica;
 font-weight: bold;
 height: 5rem;
 }
+
 .newsport h2 {
 font-size: 0.77rem;
 padding-top: 1rem;
 padding-left: 2rem;
 }
+
 .newsport  h1 {
 font-size: 1rem;
 padding-left: 2rem;
 }
+
 .LH {
 display: block;
-
+margin: auto;
 }
+
 .container .LH {
-  width: 100%;
-  
+width: 90%;
 }
 
-.LH h3 {
-  width: 90%;
+.location h3 {
+width: 90%;
+margin-bottom: 0.5rem;
+}
+
+.location  {
+margin-bottom: 0.5rem;
+}
+
+.hours h3 {
+width: 90%;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.copyright p {
+text-align: center;
+}
+
+
 }
