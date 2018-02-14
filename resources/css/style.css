@@ -44,7 +44,9 @@ font-size: 1rem;
 /*Image Banner*/
 .image-banner {
 width: 100%;
-background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+background-repeat: no-repeat;
+background-position: center;
 background-size: cover;
 height: 25rem;
 }
@@ -245,7 +247,7 @@ padding-left: 2rem;
 }
 
 .grid .container {
-  width: 90%;
+width: 90%;
 }
 
 .product:nth-child(1){
